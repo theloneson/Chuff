@@ -4,7 +4,13 @@ const Dashboard = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen p-8" style={{ background: 'linear-gradient(135deg, #2D1B2E 0%, #1A1A1A 100%)' }}>
+    <div
+  className="min-h-screen p-8 bg-cover bg-center"
+  style={{
+    backgroundImage: `url('/Images/pink.jpg')`
+  }}
+>
+
 
       {/* Top left profile dp */}
       <div className="absolute top-8 left-8">
